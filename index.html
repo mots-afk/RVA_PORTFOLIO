@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Visual Arts Portfolio by Cedrick S. Alejo for Reading Visual Arts (GE ELEC 3).">
+  <meta name="theme-color" content="#050505">
+  <title>Cedrick S. Alejo | Visual Arts Portfolio</title>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#cover" aria-label="Go to portfolio cover">
+      <img class="brand-mark" src="PFP.PNG" alt="">
+      <span class="brand-text">
+        <strong><span>Cedrick</span> ART</strong>
+        <small>Visual Arts Portfolio</small>
+      </span>
+    </a>
+
+    <div class="header-tools">
+      <nav class="top-nav" aria-label="Portfolio navigation">
+        <a href="#cover">Cover Page</a>
+        <a href="#contents">Table of Contents</a>
+        <a href="#statement">Artist Statement</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteMenu" aria-label="Open site menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="menu-drawer" id="siteMenu" hidden>
+    <div class="menu-panel">
+      <p class="menu-label">Portfolio Menu</p>
+      <h2>Quick Access</h2>
+
+      <nav class="menu-links" aria-label="Expanded navigation">
+        <a href="#cover">Cover Page</a>
+        <a href="#contents">Table of Contents</a>
+        <a href="#statement">Artist Statement</a>
+        <a href="#gallery">Gallery Wall</a>
+        <a href="#contact">Contact Info</a>
+        <a href="artwork.html?art=module-1">Module 1</a>
+        <a href="artwork.html?art=module-2">Module 2</a>
+        <a href="artwork.html?art=module-3">Module 3</a>
+        <a href="artwork.html?art=module-4">Module 4</a>
+        <a href="artwork.html?art=module-5">Module 5</a>
+        <a href="artwork.html?art=module-6-7">Modules 6-7</a>
+        <a href="artwork.html?art=module-8">Module 8</a>
+        <a href="artwork.html?art=module-9">Module 9</a>
+        <a href="artwork.html?art=module-10">Module 10</a>
+        <a href="artwork.html?art=module-11">Module 11</a>
+      </nav>
+
+      <div class="menu-meta">
+        <p><span>Artist</span> Cedrick S. Alejo</p>
+        <p><span>Course</span> Reading Visual Arts (GE ELEC 3)</p>
+        <p><span>Section</span> BSIT-2E</p>
+        <p><span>Contact</span> IG: @fn_ced</p>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="hero" id="cover">
+      <div class="hero-inner">
+        <p class="hero-tag"><span>Gallery</span> Portfolio</p>
+        <p class="hero-kicker">Cedrick S. Alejo | Reading Visual Arts (GE ELEC 3)</p>
+        <h1>PORTFOLIO</h1>
+        <p class="hero-subtitle">Final Output Submission for Visual Arts Portfolio</p>
+        <p class="hero-meta">BSIT-2E | IG: @fn_ced | Module Collection and Presentation Piece</p>
+
+        <div class="section-divider" aria-hidden="true">
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="info-grid">
+        <article class="info-panel reveal" id="contents">
+          <p class="panel-kicker">Table of Contents</p>
+          <h2>Portfolio Map</h2>
+          <div class="toc-list">
+            <a href="#cover">Cover Page</a>
+            <a href="#statement">Artist Statement</a>
+            <a href="#gallery">Gallery Wall</a>
+            <a href="artwork.html?art=module-1">Module 1</a>
+            <a href="artwork.html?art=module-2">Module 2</a>
+            <a href="artwork.html?art=module-3">Module 3</a>
+            <a href="artwork.html?art=module-4">Module 4</a>
+            <a href="artwork.html?art=module-5">Module 5</a>
+            <a href="artwork.html?art=module-6-7">Modules 6-7</a>
+            <a href="artwork.html?art=module-8">Module 8</a>
+            <a href="artwork.html?art=module-9">Module 9</a>
+            <a href="artwork.html?art=module-10">Module 10</a>
+            <a href="artwork.html?art=module-11">Module 11</a>
+            <a href="#contact">Contact Info</a>
+          </div>
+        </article>
+
+        <article class="info-panel reveal" id="statement">
+          <p class="panel-kicker">Artist Statement</p>
+          <h2>Seeing, Translating, and Reimagining</h2>
+          <p>
+            This portfolio presents the works I created in Reading Visual Arts as I learned to observe,
+            organize, and communicate ideas through images. Each module challenged me to look more carefully
+            at line, shape, color, value, rhythm, balance, and hierarchy, and to understand how these visual
+            elements affect meaning. From observational drawing and abstract composition to pattern design,
+            poster making, infographic layout, and meme creation, every output pushed me to use both creativity
+            and discipline in different ways.
+          </p>
+          <p>
+            What I value most in this process is how each artwork became a record of learning. Some pieces
+            required patience and realism, while others demanded experimentation and simplification. Through
+            these activities, I gained a stronger appreciation for visual communication not only as decoration,
+            but as a way of presenting information, emotion, humor, and identity. This collection reflects my
+            development throughout the course and serves as a summary of the skills, ideas, and artistic choices
+            I explored over the semester.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-stage" id="gallery">
+      <div class="gallery-heading reveal">
+        <p class="panel-kicker">Gallery Wall</p>
+        <div class="gallery-heading__top">
+          <h2>Module Collection</h2>
+          <p class="gallery-status" id="filterStatus" aria-live="polite">Showing all 10 works</p>
+        </div>
+        <p class="gallery-copy">
+          Choose a category below to present only the modules you need, with the filtered works grouped in one place.
+        </p>
+
+        <div class="filter-bar" aria-label="Gallery filters">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="drawing" aria-pressed="false">Drawing</button>
+          <button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button>
+          <button class="filter-button" type="button" data-filter="series" aria-pressed="false">Series</button>
+          <button class="filter-button" type="button" data-filter="document" aria-pressed="false">Document</button>
+        </div>
+      </div>
+
+      <div class="gallery-masonry">
+        <article class="art-card reveal" id="module-2" data-category="drawing">
+          <a class="art-frame" href="artwork.html?art=module-2" aria-label="Open Module 2 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--square">
+                <img src="MODULE%202.jpg" alt="Observational drawing of bottles and glassware." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">2</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Observational Drawing</strong>
+                    <small>Still life study</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-1" data-category="design">
+          <a class="art-frame" href="artwork.html?art=module-1" aria-label="Open Module 1 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--square">
+                <img src="MODULE%201.jpg" alt="Digital visual world collage artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">1</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Digital Visual World Collage</strong>
+                    <small>Collage study</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-10" data-category="design">
+          <a class="art-frame" href="artwork.html?art=module-10" aria-label="Open Module 10 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--poster">
+                <img src="MODULE%2010.png" alt="Infographic explaining how search engines work." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">10</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Infographic</strong>
+                    <small>IT topic presentation</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-4" data-category="series">
+          <a class="art-frame" href="artwork.html?art=module-4" aria-label="Open Module 4 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--portrait">
+                <img src="MODULE%204.jpg" alt="Transformation series artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">4</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Transformation Series</strong>
+                    <small>Three versions of one subject</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-3" data-category="drawing">
+          <a class="art-frame" href="artwork.html?art=module-3" aria-label="Open Module 3 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--tall">
+                <img src="MODULE%203.jpg" alt="Abstract composition artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">3</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Abstract Composition</strong>
+                    <small>Movement through shape</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-6-7" data-category="drawing">
+          <a class="art-frame" href="artwork.html?art=module-6-7" aria-label="Open Modules 6-7 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--poster">
+                <img src="MODULE%206-7.jpg" alt="Drawing or painting artwork of stacked dice." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">6-7</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Drawing or Painting Artwork</strong>
+                    <small>Value and form study</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-5" data-category="design">
+          <a class="art-frame" href="artwork.html?art=module-5" aria-label="Open Module 5 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--wide">
+                <img src="MODULE%205.jpg" alt="Filipino-inspired pattern design artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">5</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Filipino-Inspired Pattern Design</strong>
+                    <small>Rhythm and repetition</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-8" data-category="design">
+          <a class="art-frame" href="artwork.html?art=module-8" aria-label="Open Module 8 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--square">
+                <img src="MODULE%208.png" alt="Digital poster artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">8</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Digital Poster</strong>
+                    <small>Advocacy poster</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-9" data-category="document">
+          <a class="art-frame" href="artwork.html?art=module-9" aria-label="Open Module 9 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--document">
+                <span class="document-preview">
+                  <span class="document-preview__tag">PDF</span>
+                  <strong>Photo Narrative Series</strong>
+                  <small>Open the full document view</small>
+                </span>
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">9</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Photo Narrative Series</strong>
+                    <small>PDF sequence</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+
+        <article class="art-card reveal" id="module-11" data-category="design">
+          <a class="art-frame" href="artwork.html?art=module-11" aria-label="Open Module 11 full artwork page">
+            <span class="art-frame__mat">
+              <span class="art-window art-window--square">
+                <img src="MODULE%2011.jpg" alt="Meme series creation artwork." loading="lazy">
+                <span class="art-overlay">
+                  <span class="art-overlay__side">
+                    <span class="hover-icon" aria-hidden="true"></span>
+                    <span class="art-overlay__count">11</span>
+                  </span>
+                  <span class="art-overlay__divider" aria-hidden="true"></span>
+                  <span class="art-overlay__copy">
+                    <strong>Meme Series Creation</strong>
+                    <small>Humor and communication</small>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="section-divider" aria-hidden="true">
+      <span></span>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer links">
+      <a href="#cover">Cover Page</a>
+      <a href="#contents">Contents</a>
+      <a href="#statement">Statement</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+
+    <p class="footer-copy">
+      Cedrick S. Alejo | Reading Visual Arts (GE ELEC 3) | BSIT-2E | IG: @fn_ced
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

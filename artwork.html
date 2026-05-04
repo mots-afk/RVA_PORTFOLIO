@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artwork view for Cedrick S. Alejo's Visual Arts Portfolio.">
+  <meta name="theme-color" content="#050505">
+  <title>Artwork View | Cedrick S. Alejo</title>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="artwork-page">
+  <header class="site-header">
+    <a class="brand" href="index.html#cover" aria-label="Go back to portfolio cover">
+      <img class="brand-mark" src="PFP.PNG" alt="">
+      <span class="brand-text">
+        <strong><span>Cedrick</span> ART</strong>
+        <small>Visual Arts Portfolio</small>
+      </span>
+    </a>
+
+    <div class="header-tools">
+      <nav class="top-nav" aria-label="Artwork navigation">
+        <a href="index.html#contents">Table of Contents</a>
+        <a href="index.html#statement">Artist Statement</a>
+        <a href="index.html#gallery">Back to Gallery</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteMenu" aria-label="Open site menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="menu-drawer" id="siteMenu" hidden>
+    <div class="menu-panel">
+      <p class="menu-label">Artwork Menu</p>
+      <h2>Quick Access</h2>
+
+      <nav class="menu-links" aria-label="Expanded artwork navigation">
+        <a href="index.html#cover">Cover Page</a>
+        <a href="index.html#contents">Table of Contents</a>
+        <a href="index.html#statement">Artist Statement</a>
+        <a href="index.html#gallery">Gallery Wall</a>
+        <a href="index.html#contact">Contact Info</a>
+        <a href="artwork.html?art=module-1">Module 1</a>
+        <a href="artwork.html?art=module-2">Module 2</a>
+        <a href="artwork.html?art=module-3">Module 3</a>
+        <a href="artwork.html?art=module-4">Module 4</a>
+        <a href="artwork.html?art=module-5">Module 5</a>
+        <a href="artwork.html?art=module-6-7">Modules 6-7</a>
+        <a href="artwork.html?art=module-8">Module 8</a>
+        <a href="artwork.html?art=module-9">Module 9</a>
+        <a href="artwork.html?art=module-10">Module 10</a>
+        <a href="artwork.html?art=module-11">Module 11</a>
+      </nav>
+    </div>
+  </aside>
+
+  <main class="artwork-shell">
+    <a class="artwork-step artwork-step--prev" id="prevArtwork" href="index.html#gallery">Prev</a>
+
+    <section class="artwork-stage" id="viewer">
+      <span class="artwork-stage__frame">
+        <span class="artwork-stage__mat">
+          <span class="artwork-stage__window">
+            <img id="artworkImage" src="" alt="" hidden>
+            <object id="artworkPdf" data="" type="application/pdf" hidden>
+              <div class="artwork-fallback">
+                <p>PDF preview is not available in this browser.</p>
+                <a class="viewer-link" id="artworkFallbackLink" href="#" target="_blank" rel="noopener noreferrer">Open Original File</a>
+              </div>
+            </object>
+          </span>
+        </span>
+      </span>
+    </section>
+
+    <aside class="artwork-panel">
+      <p class="artwork-label" id="artworkLabel">Module</p>
+      <h1 id="artworkPageTitle">Artwork</h1>
+      <p class="artwork-subtitle" id="artworkSubtitle"></p>
+      <p class="artwork-copy" id="artworkDescription"></p>
+
+      <div class="artwork-meta">
+        <p><span>Artwork Note</span><strong id="artworkTitle">Artwork</strong></p>
+        <p><span>Artist</span>Cedrick S. Alejo</p>
+        <p><span>Course</span>Reading Visual Arts (GE ELEC 3)</p>
+        <p><span>Section</span>BSIT-2E</p>
+        <p><span>Contact</span>IG: @fn_ced</p>
+      </div>
+
+      <div class="artwork-actions">
+        <a id="backToGallery" href="index.html#gallery">Back to Gallery</a>
+        <a id="openOriginalLink" href="#" target="_blank" rel="noopener noreferrer">Open Original File</a>
+      </div>
+    </aside>
+
+    <a class="artwork-step artwork-step--next" id="nextArtwork" href="index.html#gallery">Next</a>
+  </main>
+
+  <script src="artworks.js"></script>
+  <script src="script.js"></script>
+  <script src="artwork.js"></script>
+</body>
+</html>
